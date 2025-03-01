@@ -119,11 +119,10 @@ body{
     border-radius: 5%;
     transform: translateX(10px); /* Trượt sang phải */
     transition: opacity 0.3s ease, transform 0.3s ease;
-    
 }
 
 
-.submenu:hover .menu-2 {
+.submenu2:hover .menu-2 {
     opacity: 1; /* Hiện menu */
     visibility: visible; /* Cho phép tương tác */
     transform: translateX(0); /* Trả về vị trí gốc */
