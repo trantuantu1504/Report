@@ -188,7 +188,7 @@ body{
     margin: 1.8rem 0;
     display: none;
     position: absolute;
-    background-color: #2f333a;
+    background-color: #141414;
     left: 20%;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -209,7 +209,7 @@ body{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: #2f333a;
+    background-color: #141414;
     /*background-color: #b8bcc2;*/
     
 }
@@ -220,7 +220,7 @@ body{
     color: #fff;
     border-radius: 10%;
     justify-content: center;
-    background-color: #2f333a;
+    background-color: #141414;
     cursor: pointer; /* Đổi chuột thành bàn tay */
 }
 
