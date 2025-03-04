@@ -182,9 +182,32 @@ body{
     display: block;
 }
 
+.mega-menu2 {
+    top: 30px;
+    padding: 40px ;
+    margin: 1.8rem 0;
+    display: none;
+    position: absolute;
+    background-color: #2f333a;
+    left: 20%;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5%; 
+    transition: transform 0.3s ease, color 0.3s ease;
+    width: 1000px;
+}
+
+.mega-menu2:hover {
+    transform: translateY(0px);
+}
+
+.dropdown-menu:hover .mega-menu2 {
+    display: block;
+}
+
 .menu-list {
     display: flex;
-    gap: 55px;
+    gap: 20px;
     flex-wrap: wrap;
     background-color: #2f333a;
     /*background-color: #b8bcc2;*/
@@ -193,9 +216,10 @@ body{
 
 .menu-item {
     text-align: center;
+    padding: 5px;
     color: #fff;
-    
-    padding: 10px;
+    border-radius: 10%;
+    justify-content: center;
     background-color: #2f333a;
     cursor: pointer; /* Đổi chuột thành bàn tay */
 }
@@ -214,7 +238,7 @@ body{
 }
 
 .image-content img {
-    max-width: 90px; /* Giới hạn kích thước ảnh */
+    max-width: 100px; /* Giới hạn kích thước ảnh */
     height: auto; /* Đảm bảo giữ nguyên tỉ lệ */
     object-fit: contain; /* Đảm bảo ảnh không bị méo */
 }
@@ -228,7 +252,7 @@ body{
     font-weight: 600;
     margin: 0;
     text-align: left;
-    width: 150px;
+    width: 120px;
 }
 
 .alt-content {
