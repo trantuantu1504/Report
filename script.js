@@ -131,9 +131,55 @@ scrollToTopBtn.onclick = function() {
 };
 
 
+// Hàm tạo hiệu ứng đếm số
+function animateCounter(target, start = 0, end = 80, duration = 2000, suffix = "%") {
+    let range = end - start;
+    let current = start;
+    let increment = range / (duration / 16); // 16ms = 1 frame (khoảng 60fps)
 
+    function updateCounter() {
+        current += increment;
+        if (current >= end) {
+            current = end;
+            clearInterval(timer); // Dừng khi đạt giá trị cuối
+        }
+        target.textContent = Math.floor(current).toLocaleString() + suffix; // Hiển thị số với dấu phân tách
+    }
 
+    let timer = setInterval(updateCounter, 16); // Cập nhật mỗi 16ms (~60fps)
+}
 
+// Kiểm tra phần tử có trong tầm nhìn không
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Khởi động khi trang tải xong
+document.addEventListener("DOMContentLoaded", function () {
+    const chartText = document.getElementById("chartText"); // 0% -> 80%
+    const bigText = document.querySelector(".big-text");   // 0 -> 25000+
+    const targetElements = [document.querySelector(".info2"), document.querySelector(".info1")];
+
+    // Theo dõi cuộn trang, chạy hiệu ứng khi vào tầm nhìn
+    let hasAnimated = false;
+
+    function handleScroll() {
+        if (!hasAnimated && targetElements.some(isElementInViewport)) {
+            animateCounter(chartText, 0, 80, 2000, "%");        // Chạy cho 0% -> 80%
+            animateCounter(bigText, 0, 25000, 3000, "+");       // Chạy cho 0 -> 25000+
+            hasAnimated = true;                                 // Đảm bảo chỉ chạy 1 lần
+            window.removeEventListener("scroll", handleScroll); // Gỡ sự kiện sau khi chạy
+        }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+});
 
 
 const ctx = document.getElementById('timeSavedChart').getContext('2d');
@@ -149,7 +195,7 @@ const ctx = document.getElementById('timeSavedChart').getContext('2d');
             options: {
                 rotation: -90,
                 circumference: 180,
-                cutout: '70%',
+                cutout: '90%',
                 responsive: true,
                 maintainAspectRatio: false
             }
