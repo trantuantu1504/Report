@@ -220,7 +220,7 @@ body{
     color: #fff;
     border-radius: 10%;
     justify-content: center;
-    background-color: #141414;
+    background-color: #141414;/*chỉnh màu*/
     cursor: pointer; /* Đổi chuột thành bàn tay */
 }
 
