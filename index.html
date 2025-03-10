@@ -1,1070 +1,1227 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandbox Navbar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="1.css">
-    <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <!--laomlamndjnd-->
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
+  <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
+  <link rel="shortcut icon" href="https://sandbox.elemisthemes.com/assets/img/favicon.png">
 
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="brand">
-                <a href="#">
-                    <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark@2x.png" alt="menulogo">
-                </a>
+  <link rel="stylesheet" href="https://sandbox.elemisthemes.com/assets/css/plugins.css">
+  <link rel="stylesheet" href="https://sandbox.elemisthemes.com/assets/css/style.css">
+  <link rel="stylesheet" href="https://sandbox.elemisthemes.com/assets/css/colors/grape.css">
+  
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="1.css">
+
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper">
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-light caret-none">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="#">
+              <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png" srcset="" alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+              <button type="button" class="close-btn btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                <i class="fa-solid fa-xmark"></i>
+              </button>
             </div>
-            <div class="nav-links">
-                <div class="dropdown-menu">
-                    <a href="#" style="padding: 30px 20px;">Demos</a>
-                    <div class="mega-menu">
-                        <div class="scroll-container">
-                            <div class="image-grid">
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi1@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi2@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi3@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi4@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi5@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi6@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi7@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi8@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi9@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi10@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi11@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi12@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi13@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi14@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi15@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi16@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi17@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi18@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi19@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi20@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi21@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi22@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi23@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi24@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi25@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi26@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi27@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi28@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi29@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi30@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi31@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi32@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi33@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi34@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi35@2x.jpg" alt="Image 1">
-                                </button>
-                                <button class="image-button" onclick="location.href='#'">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/mi36@2x.jpg" alt="Image 1">
-                                </button>
-                            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Demos<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+                    <li class="mega-menu-content mega-menu-scroll">
+                      <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi1.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi1@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 1</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi2.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi2@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 2</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi3.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi3@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 3</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi4.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi4@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 4</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi5.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi5@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 5</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi6.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi6@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 6</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi7.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi7@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 7</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi8.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi8@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 8</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi9.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi9@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 9</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi10.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi10@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 10</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi11.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi11@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 11</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi12.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi12@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 12</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi13.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi13@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 13</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi14.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi14@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 14</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi15.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi15@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 15</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi16.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi16@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 16</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi17.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi17@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 17</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi18.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi18@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 18</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi19.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi19@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 19</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi20.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi20@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 20</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi21.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi21@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 21</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi22.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi22@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 22</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi23.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi23@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 23</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi24.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi24@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 24</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi25.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi25@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 25</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi26.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi26@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 26</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi27.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi27@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 27</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi28.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi28@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 28</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi29.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi29@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 29</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi30.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi30@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 30</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi31.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi31@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 31</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi32.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi32@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 32</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi33.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi33@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 33</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi34.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi34@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 34</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi35.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi35@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 35</span>
+                          </a>
+                        </li>
+                        <li class="col">
+                          <a class="dropdown-item" href="#">
+                            <figure class="rounded lift d-none d-lg-block"><img src="https://sandbox.elemisthemes.com/assets/img/demos/mi36.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/demos/mi36@2x.jpg 2x" alt=""></figure>
+                            <span class="d-lg-none">Demo 36</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <span class="d-none d-lg-flex"><i class="uil uil-direction"></i><strong>Scroll to view more</strong></span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Pages<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Services<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">Services I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Services II</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            About<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">About I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">About II</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Shop<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">Shop I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Shop II</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Product Page</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Checkout</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Contact<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">Contact I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Contact II</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Contact III</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Career<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">Job Listing I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Job Listing II</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Job Description</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Utility<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">404 Not Found</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Page Loader</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Sign In I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Sign In II</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Sign Up I</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Sign Up II</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Terms</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">One Page</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Projects<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-lg">
+                    <div class="dropdown-lg-content">
+                      <div>
+                        <h6 class="dropdown-header">Project Pages</h6>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item" href="#">Projects I</a></li>
+                          <li><a class="dropdown-item" href="#">Projects II</a></li>
+                          <li><a class="dropdown-item" href="#">Projects III</a></li>
+                          <li><a class="dropdown-item" href="#">Projects IV</a></li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h6 class="dropdown-header">Single Projects</h6>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item" href="#">Single Project I</a></li>
+                          <li><a class="dropdown-item" href="#">Single Project II</a></li>
+                          <li><a class="dropdown-item" href="#">Single Project III</a></li>
+                          <li><a class="dropdown-item" href="#">Single Project IV</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Blog<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item"><a class="dropdown-item" href="#">Blog without Sidebar</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">Blog with Sidebar</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">Blog with Left Sidebar</a></li>
+                    <li class="dropdown dropdown-submenu dropend">
+                        <a class="dropdown-item d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                            Blog Posts<i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-down"></i>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="#">Post without Sidebar</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Post with Sidebar</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="#">Post with Left Sidebar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Blocks<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+                    <li class="mega-menu-content">
+                      <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block1.svg" alt=""></div>
+                            <span>About</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block2.svg" alt=""></div>
+                            <span>Blog</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block3.svg" alt=""></div>
+                            <span>Call to Action</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block4.svg" alt=""></div>
+                            <span>Clients</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block5.svg" alt=""></div>
+                            <span>Contact</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block6.svg" alt=""></div>
+                            <span>Facts</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block7.svg" alt=""></div>
+                            <span>FAQ</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block8.svg" alt=""></div>
+                            <span>Features</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block9.svg" alt=""></div>
+                            <span>Footer</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block10.svg" alt=""></div>
+                            <span>Hero</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block17.svg" alt=""></div>
+                            <span>Misc</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block11.svg" alt=""></div>
+                            <span>Navbar</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block12.svg" alt=""></div>
+                            <span>Portfolio</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block13.svg" alt=""></div>
+                            <span>Pricing</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block14.svg" alt=""></div>
+                            <span>Process</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block15.svg" alt=""></div>
+                            <span>Team</span>
+                          </a>
+                        </li>
+                        <li class="col"><a class="dropdown-item" href="#">
+                            <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="https://sandbox.elemisthemes.com/assets/img/demos/block16.svg" alt=""></div>
+                            <span>Testimonials</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <!--/.row -->
+                    </li>
+                    <!--/.mega-menu-content-->
+                  </ul>
+                  <!--/.dropdown-menu -->
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link d-flex justify-content-between" href="#" data-bs-toggle="dropdown">
+                    Documentation<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu mega-menu">
+                    <li class="mega-menu-content">
+                      <div class="row gx-0 gx-lg-3">
+                        <div class="col-lg-4">
+                          <h6 class="dropdown-header">Usage</h6>
+                          <ul class="list-unstyled cc-2 pb-lg-1">
+                            <li><a class="dropdown-item" href="#">Get Started</a></li>
+                            <li><a class="dropdown-item" href="#">Forms</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">Changelog</a></li>
+                            <li><a class="dropdown-item" href="#">Credits</a></li>
+                          </ul>
+                          <h6 class="dropdown-header mt-lg-6">Styleguide</h6>
+                          <ul class="list-unstyled cc-2">
+                            <li><a class="dropdown-item" href="#">Colors</a></li>
+                            <li><a class="dropdown-item" href="#">Fonts</a></li>
+                            <li><a class="dropdown-item" href="#">SVG Icons</a></li>
+                            <li><a class="dropdown-item" href="#">Font Icons</a></li>
+                            <li><a class="dropdown-item" href="#">Illustrations</a></li>
+                            <li><a class="dropdown-item" href="#">Backgrounds</a></li>
+                            <li><a class="dropdown-item" href="#">Misc</a></li>
+                          </ul>
                         </div>
-                        
-                        <span class="scroll-text">  Scroll to view more</span>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#" style="padding: 30px 20px;">Pages</a>
-                    <div class="dropdown-content">
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                Services <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 26px; width: 200px;">
-                                <a href="#" style="text-align: left;">Services I</a>
-                                <a href="#" style="text-align: left;">Services II</a>
-                            </div>
+                        <div class="col-lg-8">
+                          <h6 class="dropdown-header">Elements</h6>
+                          <ul class="list-unstyled cc-3">
+                            <li><a class="dropdown-item" href="#">Accordion</a></li>
+                            <li><a class="dropdown-item" href="#">Alerts</a></li>
+                            <li><a class="dropdown-item" href="#">Animations</a></li>
+                            <li><a class="dropdown-item" href="#">Avatars</a></li>
+                            <li><a class="dropdown-item" href="#">Background</a></li>
+                            <li><a class="dropdown-item" href="#">Badges</a></li>
+                            <li><a class="dropdown-item" href="#">Buttons</a></li>
+                            <li><a class="dropdown-item" href="#">Card</a></li>
+                            <li><a class="dropdown-item" href="#">Carousel</a></li>
+                            <li><a class="dropdown-item" href="#">Dividers</a></li>
+                            <li><a class="dropdown-item" href="#">Form Elements</a></li>
+                            <li><a class="dropdown-item" href="#">Image Hover</a></li>
+                            <li><a class="dropdown-item" href="#">Image Mask</a></li>
+                            <li><a class="dropdown-item" href="#">Lightbox</a></li>
+                            <li><a class="dropdown-item" href="#">Media Player</a></li>
+                            <li><a class="dropdown-item" href="#">Modal</a></li>
+                            <li><a class="dropdown-item" href="#">Pagination</a></li>
+                            <li><a class="dropdown-item" href="#">Progressbar</a></li>
+                            <li><a class="dropdown-item" href="#">Shadows</a></li>
+                            <li><a class="dropdown-item" href="#">Shapes</a></li>
+                            <li><a class="dropdown-item" href="#">Tables</a></li>
+                            <li><a class="dropdown-item" href="#">Tabs</a></li>
+                            <li><a class="dropdown-item" href="#">Text Animations</a></li>
+                            <li><a class="dropdown-item" href="#">Text Highlight</a></li>
+                            <li><a class="dropdown-item" href="#">Tiles</a></li>
+                            <li><a class="dropdown-item" href="#">Tooltips & Popovers</a></li>
+                            <li><a class="dropdown-item" href="#">Typography</a></li>
+                          </ul>
                         </div>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                About <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 65px; width: 200px;">
-                                <a href="#" style="text-align: left;">About I</a>
-                                <a href="#" style="text-align: left;">About II</a>
-                            </div>
-                        </div>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                Shop <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 120px; width: 200px;">
-                                <a href="#" style="text-align: left;">Shop I</a>
-                                <a href="#" style="text-align: left;">Shop II</a>
-                                <a href="#" style="text-align: left;">Product Page</a>
-                                <a href="#" style="text-align: left;">Shopping Cart</a>
-                                <a href="#" style="text-align: left;">Checkout</a>
-                            </div>
-                        </div>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                Contact <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 170px; width: 200px;">
-                                <a href="#" style="text-align: left;">Contact I</a>
-                                <a href="#" style="text-align: left;">Contact II</a>
-                                <a href="#" style="text-align: left;">Contact III</a>
-                            </div>
-                        </div>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                Career <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 220px; width: 200px;">
-                                <a href="#" style="text-align: left;">Job Listing I</a>
-                                <a href="#" style="text-align: left;">Job Listing II</a>
-                                <a href="#" style="text-align: left;">Job Description</a>
-                            </div>
-                        </div>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex;" class="menu-1">
-                                Utility <p>></p>
-                            </a>
-                            <div class="menu-2" style="margin-top: 260px; width: 200px;">
-                                <a href="#" style="text-align: left;">404 Not Found</a>
-                                <a href="#" style="text-align: left;">Page Loading</a>
-                                <a href="#" style="text-align: left;">Sign In I</a>
-                                <a href="#" style="text-align: left;">Sign In II</a>
-                                <a href="#" style="text-align: left;">Sign Up I</a>
-                                <a href="#" style="text-align: left;">Sign Up I</a>
-                                <a href="#" style="text-align: left;">Terms</a>
-                            </div>
-                        </div>
-                        <div class="submenu2">
-                            <a href="#" style="text-align: left;">Pricing</a>
-                        
-                        </div>
-                        <div class="submenu2">
-                            <a href="#" style="text-align: left;">One Page</a>
-                        </div>
-                    </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="/cdn-cgi/l/email-protection#55333c2726217b39342621153038343c397b363a38" class="link-inverse"><span class="__cf_email__" data-cfemail="b6dfd8d0d9f6d3dbd7dfda98d5d9db">[email&#160;protected]</span></a>
+                  <br /> 00 (123) 456 78 90 <br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
                 </div>
-
-                <div class="dropdown">
-                    <a href="#" style="padding: 30px 20px;">Projects</a>
-                    <div class="dropdown-content1">
-                        <div class="project-content" style="padding: 10px 10px;">
-                            <div class="project-item">
-                                <h1>PROJECT PAGE</h1>
-                                <div class="project-list1">
-                                    <a href="#">Projects I</a>
-                                    <a href="#">Projects II</a>
-                                    <a href="#">Projects III</a>
-                                    <a href="#">Projects VI</a>
-                                </div>
-                            </div>
-                            <div class="project-item">
-                                <h1>SINGLE PROJECT</h1>
-                                <div class="project-list2">
-                                    <a href="#">Single Projects I</a>
-                                    <a href="#">Single Projects II</a>
-                                    <a href="#">Single Projects III</a>
-                                    <a href="#">Single Projects VI</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#" style="padding: 30px 20px;">Blog</a>
-                    <div class="dropdown-content1">
-                        <a href="#" style="text-align: left;">Blog without Sidebar</a>
-                        <a href="#" style="text-align: left;">Blog with Sidebar</a>
-                        <a href="#" style="text-align: left;">Blog with Left Sidebar</a>
-                        <div class="submenu2"> <!-- Gói menu-1 và menu-2 chung 1 div -->
-                            <a href="#" style="justify-content: space-between; display:flex" class="menu-1">
-                                Blog Posts <p>></p>
-                            </a>
-                            <div class="menu-3" style="margin-top: 160px; width: 200px;">
-                                <a href="#" style="text-align: left;">Blog without Sideba</a>
-                                <a href="#" style="text-align: left;">Blog with Sidebar</a>
-                                <a href="#" style="text-align: left;">Blog with Left Sidebar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="dropdown-menu">
-                    <a href="#" style="padding: 30px 20px;">Blocks</a>
-                    <div class="mega-menu2">
-                        <div class="menu-list">
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block1.svg" alt="Services">
-                                </div>
-                                <p>About</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block2.svg" alt="Services">
-                                </div>
-                                <p>Blog</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block3.svg" alt="Services">
-                                </div>
-                                <p>Call To Action</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block4.svg" alt="Services">
-                                </div>
-                                <p>Clients</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block5.svg" alt="Services">
-                                </div>
-                                <p>Contact</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block6.svg" alt="Services">
-                                </div>
-                                <p>Facts</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block7.svg" alt="Services">
-                                </div>
-                                <p>FAQ</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block8.svg" alt="Services">
-                                </div>
-                                <p>Features</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block9.svg" alt="Services">
-                                </div>
-                                <p>Footer</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block10.svg" alt="Services">
-                                </div>
-                                <p>Hero</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block11.svg" alt="Services">
-                                </div>
-                                <p>Misc</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block12.svg" alt="Services">
-                                </div>
-                                <p>Navbar</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block13.svg" alt="Services">
-                                </div>
-                                <p>Portfolio</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block14.svg" alt="Services">
-                                </div>
-                                <p>Pricing</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block15.svg" alt="Services">
-                                </div>
-                                <p>Process</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block16.svg" alt="Services">
-                                </div>
-                                <p>Team</p>
-                            </button>
-                            <button class="menu-item" onclick="location.href='#'">
-                                <div class="image-content">
-                                    <img src="https://sandbox.elemisthemes.com/assets/img/demos/block17.svg" alt="Services">
-                                </div>
-                                <p>Testimonials</p>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="dropdown-alt">
-                    <a href="#" style="padding: 30px 20px;">Documentation</a>
-                    <div class="alt-content">
-                        <div class="document-content">
-                            <div class="first">
-                                <div class="document-list">
-                                    <span class="document-title">Usage</span>
-                                    <div class="document-grid">
-                                        <a href="#" class="document-item" style="text-align: left;">Get Started</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Forms</a>
-                                        <a href="#" class="document-item" style="text-align: left;">FAQ</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Changelog</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Credits</a>
-                                    </div>
-                                </div>
-    
-                                <div class="document-list">
-                                    <span class="document-title">Styleguide</span>
-                                    <div class="document-grid">
-                                        <a href="#" class="document-item" style="text-align: left;">Colors</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Fonts</a>
-                                        <a href="#" class="document-item" style="text-align: left;">SVG Icons</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Font Icons</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Illustrations</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Backgrounds</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Misc</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="divider"></div>
-                            <div class="second">
-                                <div class="document-list">
-                                    <span class="document-title">Elements</span>
-                                    <div class="document-grid2">
-                                        <a href="#" class="document-item" style="text-align: left;">Accordion</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Alerts</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Animations</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Avatars</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Background</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Badge</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Buttons</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Card</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Carousel</a>
-
-                                        <a href="#" class="document-item" style="text-align: left;">Dividers</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Form Elements</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Image Hover</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Image Mask</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Lightbox</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Media Player</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Modal</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Pagination</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Progressbar</a>
-
-                                        <a href="#" class="document-item" style="text-align: left;">Shadows</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Shapes</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Tables</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Tabs</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Text Animations</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Text Highlight</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Tiles</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Tooltips & Popovers</a>
-                                        <a href="#" class="document-item" style="text-align: left;">Typography</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="icon">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="#" class="menu-toggle"><i class="fa-solid fa-bars"></i></a>
-        </nav>
-        <!--Menu ẩn trên mobile-->
-        <div class="mobile-menu">
-            <div class="header">
-                <h1 style="font-weight: bold; color:white; font-size:30px; text-align:left">Sandbox</h1>
-                <span class="close-btn">&times;</span>
-            </div>
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Demos <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <div class="submenu-item">
-                        <a href="#" class="toggle-dropdown">Demos 1</a>
-                        <a href="#" class="toggle-dropdown">Demos 2</a>
-                        <a href="#" class="toggle-dropdown">Demos 3</a>
-                        <a href="#" class="toggle-dropdown">Demos 4</a>
-                        <a href="#" class="toggle-dropdown">Demos 5</a>
-                        <a href="#" class="toggle-dropdown">Demos 6</a>
-
-                        <a href="#" class="toggle-dropdown">Demos 7</a>
-                        <a href="#" class="toggle-dropdown">Demos 8</a>
-                        <a href="#" class="toggle-dropdown">Demos 9</a>
-                        <a href="#" class="toggle-dropdown">Demos 10</a>
-                        <a href="#" class="toggle-dropdown">Demos 11</a>
-                        <a href="#" class="toggle-dropdown">Demos 12</a>
-
-                        <a href="#" class="toggle-dropdown">Demos 13</a>
-                        <a href="#" class="toggle-dropdown">Demos 14</a>
-                        <a href="#" class="toggle-dropdown">Demos 15</a>
-                        <a href="#" class="toggle-dropdown">Demos 16</a>
-                        <a href="#" class="toggle-dropdown">Demos 17</a>
-                        <a href="#" class="toggle-dropdown">Demos 18</a>
-
-                        <a href="#" class="toggle-dropdown">Demos 19</a>
-                        <a href="#" class="toggle-dropdown">Demos 20</a>
-                        <a href="#" class="toggle-dropdown">Demos 21</a>
-                        <a href="#" class="toggle-dropdown">Demos 22</a>
-                        <a href="#" class="toggle-dropdown">Demos 23</a>
-                        <a href="#" class="toggle-dropdown">Demos 24</a>
-
-                        <a href="#" class="toggle-dropdown">Demos 25</a>
-                        <a href="#" class="toggle-dropdown">Demos 26</a>
-                        <a href="#" class="toggle-dropdown">Demos 27</a>
-                        <a href="#" class="toggle-dropdown">Demos 28</a>
-                        <a href="#" class="toggle-dropdown">Demos 29</a>
-                        <a href="#" class="toggle-dropdown">Demos 30</a>
-
-                        <a href="#" class="toggle-dropdown">Demos 31</a>
-                        <a href="#" class="toggle-dropdown">Demos 32</a>
-                        <a href="#" class="toggle-dropdown">Demos 33</a>
-                        <a href="#" class="toggle-dropdown">Demos 34</a>
-                        <a href="#" class="toggle-dropdown">Demos 35</a>
-                        <a href="#" class="toggle-dropdown">Demos 36</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Pages <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <div class="submenu-item">
-                        <a href="#" class="toggle-dropdown">Services <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">Services I</a>
-                            <a href="#" style="text-align: left;">Services II</a>
-                        </div>
-                        <a href="#" class="toggle-dropdown">About <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">About I</a>
-                            <a href="#" style="text-align: left;">About II</a>
-                        </div>
-                        <a href="#" class="toggle-dropdown">Shop <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">Shop I</a>
-                            <a href="#" style="text-align: left;">Shop II</a>
-                            <a href="#" style="text-align: left;">Product Page</a>
-                            <a href="#" style="text-align: left;">Shopping Cart</a>
-                            <a href="#" style="text-align: left;">Check Out</a>
-                        </div>
-                        
-                        <a href="#" class="toggle-dropdown">Contact <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">Contact I</a>
-                            <a href="#" style="text-align: left;">Contact II</a>
-                            <a href="#" style="text-align: left;">Contact III</a>
-                        </div>
-                        <a href="#" class="toggle-dropdown">Career <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">Job Listing I</a>
-                            <a href="#" style="text-align: left;">Job Listing II</a>
-                            <a href="#" style="text-align: left;">Job Description</a>
-                        </div>
-                        <a href="#" class="toggle-dropdown">Utility <span class="arrow">▼</span></a>
-                        <div class="sub-submenu">
-                            <a href="#" style="text-align: left;">404 Not Found</a>
-                            <a href="#" style="text-align: left;">Page Loading</a>
-                            <a href="#" style="text-align: left;">Sign In I</a>
-                            <a href="#" style="text-align: left;">Sign In II</a>
-                            <a href="#" style="text-align: left;">Sign Up I</a>
-                            <a href="#" style="text-align: left;">Sign Up I</a>
-                            <a href="#" style="text-align: left;">Terms</a>
-                        </div>
-                        <a href="#" class="toggle-dropdown">Pricing</a>
-                        <a href="#" class="toggle-dropdown">One Page</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Projects <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <h3 style="color: #605dba; text-transform: uppercase; font-weight:bold; text-align: left;">Project Page</h3>
-                    <a href="#" class="toggle-dropdown">Projects I</a>
-                    <a href="#" class="toggle-dropdown">Projects II</a>
-                    <a href="#" class="toggle-dropdown">Projects III</a>
-                    <a href="#" class="toggle-dropdown">Projects IV</a>
-                    <h3 style="color: #605dba; text-transform: uppercase; font-weight:bold; text-align: left;">Single Project</h3>
-                    <a href="#" class="toggle-dropdown">Single Projects I</a>
-                    <a href="#" class="toggle-dropdown">Single Projects II</a>
-                    <a href="#" class="toggle-dropdown">Single Projects III</a>
-                    <a href="#" class="toggle-dropdown">Single Projects IV</a>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Blogs <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <a href="#" class="toggle-dropdown">Blogs without Sidebar</a>
-                    <a href="#" class="toggle-dropdown">Blogs with Sidebar</a>
-                    <a href="#" class="toggle-dropdown">Blogs with left Sidebar</a>
-                    <a href="#" class="toggle-dropdown">Blogs Post <span class="arrow">▼</span></a>
-                    <div class="sub-submenu">
-                        <a href="#" style="text-align: left;">Blogs without Sidebar</a>
-                        <a href="#" style="text-align: left;">Blogs with Sidebar</a>
-                        <a href="#" style="text-align: left;">Blogs with left Sidebar</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Blocks <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <a href="#" class="toggle-dropdown">About</a>
-                    <a href="#" class="toggle-dropdown">Blog</a>
-                    <a href="#" class="toggle-dropdown">Call To Action</a>
-                    <a href="#" class="toggle-dropdown">Clients</a>
-                    <a href="#" class="toggle-dropdown">Contact</a>
-                    <a href="#" class="toggle-dropdown">Fact</a>
-                    <a href="#" class="toggle-dropdown">FAQ</a>
-                    <a href="#" class="toggle-dropdown">Features</a>
-                    <a href="#" class="toggle-dropdown">Footer</a>
-                    <a href="#" class="toggle-dropdown">Hero</a>
-                    <a href="#" class="toggle-dropdown">Misc</a>
-                    <a href="#" class="toggle-dropdown">Navbar</a>
-                    <a href="#" class="toggle-dropdown">Portfolio</a>
-                    <a href="#" class="toggle-dropdown">Pricing</a>
-                    <a href="#" class="toggle-dropdown">Process</a>
-                    <a href="#" class="toggle-dropdown">Team</a>
-                    <a href="#" class="toggle-dropdown">Testimonials</a>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <a href="#" class="toggle-dropdown">Documentation <span class="arrow">▼</span></a>
-                <div class="submenu">
-                    <h3 style="color: #605dba; text-transform: uppercase; font-weight:bold; text-align: left;">Usage</h3>
-                    <a href="#" class="document-item" style="text-align: left;">Get Started</a>
-                    <a href="#" class="document-item" style="text-align: left;">Forms</a>
-                    <a href="#" class="document-item" style="text-align: left;">FAQ</a>
-                    <a href="#" class="document-item" style="text-align: left;">Changelog</a>
-                    <a href="#" class="document-item" style="text-align: left;">Credits</a>
-                    <h3 style="color: #605dba; text-transform: uppercase; font-weight:bold; text-align: left;">Styleguide</h3>
-                    <a href="#" class="document-item" style="text-align: left;">Colors</a>
-                    <a href="#" class="document-item" style="text-align: left;">Fonts</a>
-                    <a href="#" class="document-item" style="text-align: left;">SVG Icons</a>
-                    <a href="#" class="document-item" style="text-align: left;">Font Icons</a>
-                    <a href="#" class="document-item" style="text-align: left;">Illustrations</a>
-                    <a href="#" class="document-item" style="text-align: left;">Backgrounds</a>
-                    <a href="#" class="document-item" style="text-align: left;">Misc</a>
-                    <h3 style="color: #605dba; text-transform: uppercase; font-weight:bold; text-align: left;">Elements</h3>
-                    <a href="#" class="document-item" style="text-align: left;">Accordion</a>
-                    <a href="#" class="document-item" style="text-align: left;">Alerts</a>
-                    <a href="#" class="document-item" style="text-align: left;">Animations</a>
-                    <a href="#" class="document-item" style="text-align: left;">Avatars</a>
-                    <a href="#" class="document-item" style="text-align: left;">Background</a>
-                    <a href="#" class="document-item" style="text-align: left;">Badge</a>
-                    <a href="#" class="document-item" style="text-align: left;">Buttons</a>
-                    <a href="#" class="document-item" style="text-align: left;">Card</a>
-                    <a href="#" class="document-item" style="text-align: left;">Carousel</a>
-
-                    <a href="#" class="document-item" style="text-align: left;">Dividers</a>
-                    <a href="#" class="document-item" style="text-align: left;">Form Elements</a>
-                    <a href="#" class="document-item" style="text-align: left;">Image Hover</a>
-                    <a href="#" class="document-item" style="text-align: left;">Image Mask</a>
-                    <a href="#" class="document-item" style="text-align: left;">Lightbox</a>
-                    <a href="#" class="document-item" style="text-align: left;">Media Player</a>
-                    <a href="#" class="document-item" style="text-align: left;">Modal</a>
-                    <a href="#" class="document-item" style="text-align: left;">Pagination</a>
-                    <a href="#" class="document-item" style="text-align: left;">Progressbar</a>
-
-                    <a href="#" class="document-item" style="text-align: left;">Shadows</a>
-                    <a href="#" class="document-item" style="text-align: left;">Shapes</a>
-                    <a href="#" class="document-item" style="text-align: left;">Tables</a>
-                    <a href="#" class="document-item" style="text-align: left;">Tabs</a>
-                    <a href="#" class="document-item" style="text-align: left;">Text Animations</a>
-                    <a href="#" class="document-item" style="text-align: left;">Text Highlight</a>
-                    <a href="#" class="document-item" style="text-align: left;">Tiles</a>
-                    <a href="#" class="document-item" style="text-align: left;">Tooltips & Popovers</a>
-                    <a href="#" class="document-item" style="text-align: left;">Typography</a>
-                </div>
-            </div>
-
-            <div class="mobile-footer">
-                <p>info@email.com</p>
-                <p>00 (123) 456 78 90</p>
-                <div class="mobile-icons">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-        <!-- Overlay (lớp phủ mờ) -->
-        <div class="background"></div>
-
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Networking <span class="highlight">solutions</span> for worldwide communication</h1>
-                <p>We're a company that focuses on establishing<br> long-term relationships with customers.</p>
-                <a href="#" class="btn">Explore Now</a>
-            </div>
-            <div class="hero-image">
-                <img src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d6@2x.png" alt="Networking Image">
-            </div>
-        </section>
-        
-        <div style="margin-bottom: 7rem"></div>
-        <section class="features-section">
-            <h1 class="fs-16 text-uppercase text-gradient gradient-1 mb-3" style="color: #ff4081;">OUR FEATURES</h1>
-            <h2>The service we offer is specifically <br>designed to meet your needs.</h2>
-            <div style="margin-top: 50px;"></div>
-            <div class="features-container">
-                <div class="feature-box">
-                    <img src="img/1.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>Software & Integration</h3>
-                        <p> Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-                <div class="feature-box">
-                    <img src="img/1.2.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>Network Security</h3>
-                        <p> Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-                <div class="feature-box">
-                    <img src="img/1.3.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>Cloud Services</h3>
-                        <p> Cloud Services
-                            Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-                <div class="feature-box">
-                    <img src="img/1.4.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>Wireless Networking</h3>
-                        <p> Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-                <div class="feature-box">
-                    <img src="img/1.5.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>IT Solutions</h3>
-                        <p> Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-                <div class="feature-box">
-                    <img src="img/1.6.png" alt="Icon">
-                    <div class="feature-text">
-                        <h3>Server Configuration</h3>
-                        <p> Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div style="margin-bottom: 7rem"></div>
-        <section class="feature-section">
-            <div class="feature-image">
-                <img src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d2@2x.png" alt="Illustration">
-            </div>
-            <div class="feature-content">
-                <h4 class="fs-16 text-uppercase text-gradient gradient-1 mb-3" style="color: #ff4081;">HAVE PERFECT CONTROL</h4>
-                <h2 class="title">We bring solutions to make life easier for our customers.</h2>
-                <p class="description">
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. 
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. 
-                    Vivamus sagittis lacus vel augue rutrum.
-                </p>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <span class="icons" style="color: #605dba;">✔</span> Aenean quam ornare. Curabitur blandit.
-                    </div>
-                    <div class="feature-item">
-                        <span class="icons" style="color: #605dba;">✔</span> Nullam quis risus eget urna mollis ornare.
-                    </div>
-                    <div class="feature-item">
-                        <span class="icons" style="color: #605dba;">✔</span> Etiam porta euismod malesuada mollis.
-                    </div>
-                    <div class="feature-item">
-                        <span class="icons" style="color: #605dba;">✔</span> Vivamus sagittis lacus vel augue rutrum.
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="container">
-            <div class="text-content">
-                <h3>WHAT MAKES US DIFFERENT?</h3>
-                <h2>We make spending stress free so you have the perfect control.</h2>
-                <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
-                <ul>
-                    <li>Aenean eu leo quam. Pellentesque ornare.</li>
-                    <li>Nullam quis risus eget urna mollis ornare.</li>
-                    <li>Donec id elit non mi porta gravida at eget.</li>
-                </ul>
-            </div>
-            <div class="image-section">
-                <img src="https://sandbox.elemisthemes.com/assets/img/photos/about27@2x.jpg" alt="People">
-                <div class="info-box info1">
-                    <img src="img/2.png" alt="Icon">
-                    <p><span class="big-text">25000+</span><br> Happy Clients</p>
-                </div>
-                <div class="info-box info2">
-                    <div class="chart-container">
-                        <canvas id="timeSavedChart"></canvas>
-                        <div class="chart-text" id="chartText">0%</div>
-                        <div class="chart-subtext">Time Saved</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div style="margin-bottom: 7rem"></div>
-        <section class="achievement-section">
-            <div class="achievement-content">
-                <div class="achievement-text">
-                    <h2>We are proud of our works</h2>
-                    <p>We bring solutions to make life easier for our customers.</p>
-                </div>
-                <div class="stats-container">
-                    <div class="stat-box">
-                        <img src="img/3.png" alt="Completed Projects">
-                        <h3>1000+</h3>
-                        <p>Completed Projects</p>
-                    </div>
-                    <div class="stat-box">
-                        <img src="img/3.1.png" alt="Revenue Growth">
-                        <h3>4x</h3>
-                        <p>Revenue Growth</p>
-                    </div>
-                    <div class="stat-box">
-                        <img src="img/3.2.png" alt="Customer Satisfaction">
-                        <h3>99.7%</h3>
-                        <p>Customer Satisfaction</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonials-container">
-                <div class="testimonial">
-                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
-                    <h4>Coriss Ambady</h4>
-                    <span>Financial Analyst</span>
-                    
-                </div>
-                <div class="testimonial">
-                    <p>“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet purus sit amet fermentum.”</p>
-                    <h4>Cory Zamora</h4>
-                    <span>Marketing Specialist</span>
-                    
-                </div>
-                <div class="testimonial">
-                    <p>“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”</p>
-                    <h4>Nikolas Brooten</h4>
-                    <span>Sales Manager</span>
-                </div>
-                <div class="testimonial">
-                    <p>“Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”</p>
-                    <h4 style="margin-top: 60px !important;">Coriss Ambady</h4>
-                    <span>Financial Analyst</span>
-                </div>
-            </div>
-        </section>
-        
-        <div style="margin-bottom: 7rem"></div>
-        <div class="case-studies">
-            <h5>CASE STUDIES</h5>
-            <h2>Check out some of our awesome projects <br> with creative ideas and great design.</h2>
-        
-            <div class="swiper-container">
-                 <!-- Các slide ở đây -->
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="project-card">
-                            <div class="image-container">
-                                <img src="https://sandbox.elemisthemes.com/assets/img/photos/b4.jpg" alt="Project 1">
-                                <div class="overlay">
-                                    <span>Read More</span>
-                                </div>
-                            </div>
-                            <a href="#"><h3>Ligula tristique quis risus</h3></a>
-                            <p>📅 14 Apr 2022  •  📄 Coding</p>
-                        </div>
-                    </div>
-            
-                    <div class="swiper-slide">
-                        <div class="project-card">
-                            <div class="image-container">
-                                <img src="https://sandbox.elemisthemes.com/assets/img/photos/b5.jpg" alt="Project 2">
-                                <div class="overlay">
-                                    <span>Read More</span>
-                                </div>
-                            </div>
-                            <a href="#"><h3>Nullam id dolor elit id nibh</h3></a>
-                            <p>📅 29 Mar 2022  •  📄 Workspace</p>
-                        </div>
-                    </div>
-            
-                    <div class="swiper-slide">
-                        <div class="project-card">
-                            <div class="image-container">
-                                <img src="https://sandbox.elemisthemes.com/assets/img/photos/b6.jpg" alt="Project 3">
-                                <div class="overlay">
-                                    <span>Read More</span>
-                                </div>
-                            </div>
-                            <a href="#"><h3>Ultricies fusce porta elit</h3></a>
-                            <p>📅 26 Feb 2022  •  📄 Meeting</p>
-                        </div>
-                    </div>
-            
-                    <div class="swiper-slide">
-                        <div class="project-card">
-                            <div class="image-container">
-                                <img src="https://sandbox.elemisthemes.com/assets/img/photos/b7.jpg" alt="Project 4">
-                                <div class="overlay">
-                                    <span>Read More</span>
-                                </div>
-                            </div>
-                            <a href="#"><h3>Vivamus sagittis lacus vel</h3></a>
-                            <p>📅 10 Jan 2022  •  📄 Design</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-        
-        
-
-        <div style="margin-bottom: 7rem"></div>
-        <div class="some">
-            <!-- Phần hình ảnh bên trái -->
-            <div class="grid grid-cols-2 gap-4 md:w-1/2" >
-                <img src="https://sandbox.elemisthemes.com/assets/img/photos/g12@2x.jpg" class="rounded-xl shadow-lg">
-                <img src="https://sandbox.elemisthemes.com/assets/img/photos/g13@2x.jpg" class="rounded-xl shadow-lg">
-                <img src="https://sandbox.elemisthemes.com/assets/img/photos/g11@2x.jpg" class="rounded-xl shadow-lg col-span-2">
-            </div>
-    
-            <!-- Phần nội dung bên phải -->
-            <div class="md:w-1/2">
-                <h3 class="text-pink-500 font-semibold uppercase tracking-wide" style="margin-bottom: 50px;">Who are we?</h3>
-                <h2 class="text-3xl font-bold text-gray-800 mt-2" style="margin-bottom: 50px;">Company that believes in the power of creative strategy.</h2>
-                <p class="text-gray-600 mt-4 leading-relaxed" style="margin-bottom: 50px;">
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                </p>
-    
-                <!-- Danh sách mô tả -->
-                <div class="grid grid-cols-2 gap-4 mt-6">
-                    <p class="flex items-center text-gray-700">
-                        <span class="icon2">✔</span> Aenean eu leo quam ornare curabitur blandit tempus.
-                    </p>
-                    <p class="flex items-center text-gray-700">
-                        <span class="icon2">✔</span> Etiam porta sem malesuada magna mollis euismod.
-                    </p>
-                    <p class="flex items-center text-gray-700">
-                        <span class="icon2">✔</span> Nullam quis risus eget urna mollis ornare donec elit.
-                    </p>
-                    <p class="flex items-center text-gray-700">
-                        <span class="icon2">✔</span> Fermentum massa vivamus faucibus amet euismod.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <section class="vision-mission-values">
-            <div class="item">
-              <div class="circle">1</div>
-              <div class="bor">
-                <h3>Our Vision</h3>
-                <p>Nulla vitae elit libero, a pharetra augue.<br> Donec id elit non mi porta gravida at eget.<br> Fusce dapibus tellus.</p>
               </div>
             </div>
-            <div class="item">
-                <div class="circle">2</div>
-                <div class="bor">
-                  <h3>Our Vision</h3>
-                  <p>Maecenas faucibus mollis interdum.<br> Vivamus sagittis lacus vel augue laoreet.<br> Sed posuere consectetur.</p>
+          </div>
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <div class="nav-item">
+                <nav class="nav social social-muted justify-content-end text-end">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-dribbble"></i></a>
+                  <a href="#"><i class="uil uil-instagram"></i></a>
+                </nav>
+              </div>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="wrapper bg-light">
+      <div class="container-card">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mt-2 mb-5" data-image-src="https://sandbox.elemisthemes.com/assets/img/photos/bg22.png">
+          <div class="card-body py-14 px-0">
+            <div class="container">
+              <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
+                <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
+                  <h1 class="display-2 mb-4 me-xl-5 me-xxl-0">Networking <span class="text-gradient gradient-1">solutions</span> for worldwide communication</h1>
+                  <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">We're a company that focuses on establishing long-term relationships with customers.</p>
+                  <div><a href="#" class="btn btn-lg btn-gradient gradient-1 rounded">Explore Now</a></div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="circle">3</div>
-                <div class="bor">
-                  <h3>Our Vision</h3>
-                  <p>Cras justo odio, dapibus ac facilisis in,<br> egestas eget quam. Praesent commodo<br> cursus magna scelerisque.</p>
+                <div class="col-lg-6">
+                  <img class="img-fluid mb-n18" src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d6.png" srcset="https://sandbox.elemisthemes.com/assets/img/illustrations/3d6@2x.png 2x" data-cue="fadeIn" data-delay="300" alt="" />
                 </div>
+              </div>
             </div>
-        </section>
-
-        <div style="margin-bottom: 7rem"></div>
-        <section class="live">
-            <div class="section">
-                <img src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d3@2x.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper bg-light">
+      <div class="container pt-14 pt-md-17 pb-14 pb-md-18">
+        <div class="row text-center">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Our Features</h2>
+            <h3 class="display-4 mb-9 px-xl-11">The service we offer is specifically designed to meet your needs.</h3>
+          </div>
+        </div>
+        <div class="row gy-8 mb-17">
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">Software & Integration</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
             </div>
-            <div class="section-2">
-                <h4 style="text-align:left;">Contact Us</h4>
-                <h2 style="font-weight: bold; text-align:left;">Got any questions? Don't hesitate to get in touch.</h2>
-                <div class="icon-text">
-                    <div class="icon3"><img src="img/4.png" alt="img"></div>
-                    <div class="text3">
-                        <h3>Address</h3>
-                        <p>Moonshine St. 14/05 Light City, London</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.2.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">Network Security</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.3.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">Cloud Services</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.4.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">Wireless Networking</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.5.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">IT Solutions</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/1.6.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4" alt="" />
+              </div>
+              <div>
+                <h3 class="fs-22 mb-1">Server Configuration</h3>
+                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
+          <div class="col-lg-5 offset-lg-1">
+            <figure><img class="w-auto" src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d2.png" srcset="https://sandbox.elemisthemes.com/assets/img/illustrations/3d2@2x.png 2x" alt="" /></figure>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Have Perfect Control</h2>
+            <h3 class="display-4 mb-4">We bring solutions to make life easier for our customers.</h3>
+            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+            <div class="row gy-3">
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare. Curabitur blandit.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare.</span></li>
+                </ul>
+              </div>
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod malesuada mollis.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Vivamus sagittis lacus vel augue rutrum.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-md-8 gy-10 align-items-center">
+          <div class="col-lg-6 offset-lg-1 order-lg-2 position-relative">
+            <figure class="rounded"><img class="img-fluid" src="https://sandbox.elemisthemes.com/assets/img/photos/about27.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/photos/about27@2x.jpg 2x" alt="" /></figure>
+            <div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; left: -7%">
+              <div class="card-body py-4 px-5">
+                <div class="d-flex flex-row align-items-center">
+                  <div>
+                    <img src="img/2.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-3" alt="" />
+                  </div>
+                  <div>
+                    <h3 class="fs-25 counter mb-0 text-nowrap">25000+</h3>
+                    <p class="fs-16 lh-sm mb-0 text-nowrap">Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+            <div class="card shadow-lg position-absolute text-center d-none d-md-block" style="bottom: 10%; left: -10%;">
+              <div class="card-body p-6">
+                <div class="progressbar semi-circle fuchsia mb-3" data-value="80"></div>
+                <h4 class="mb-0">Time Saved</h4>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">What Makes Us Different?</h2>
+            <h3 class="display-4 mb-4 me-lg-n5">We make spending stress free so you have the perfect control.</h3>
+            <p class="mb-6">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
+            <ul class="icon-list bullet-bg bullet-soft-primary">
+              <li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+              <li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+              <li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+            </ul>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light">
+      <div class="container-card">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" data-image-src="https://sandbox.elemisthemes.com/assets/img/photos/bg22.png">
+          <div class="card-body py-14 px-0">
+            <div class="container">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
+                <div class="col-lg-4 text-center text-lg-start">
+                  <h3 class="display-4 mb-3 pe-xxl-15">We are proud of our works</h3>
+                  <p class="lead fs-lg mb-0 pe-xxl-10">We bring solutions to make life easier for our customers.</p>
+                </div>
+                <!-- /column -->
+                <div class="col-lg-8 mt-lg-2">
+                  <div class="row align-items-center counter-wrapper gy-6 text-center">
+                    <div class="col-md-4">
+                      <img src="img/3.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
+                      <h3 class="counter">1000+</h3>
+                      <p class="mb-0">Completed Projects</p>
                     </div>
-                </div>
-                <div class="icon-text">
-                    <div class="icon3"><img src="img/4.1.png" alt="img"></div>
-                    <div class="text3">
-                        <h3>Phone</h3>
-                        <p>00 (123) 456 78 90</p>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <img src="img/3.1.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
+                      <h3 class="counter">4x</h3>
+                      <p class="mb-0">Revenue Growth</p>
                     </div>
-                </div>
-                <div class="icon-text">
-                    <div class="icon3"><img src="img/4.2.png" alt="img"></div>
-                    <div class="text3">
-                        <h3>E-mails</h3>
-                        <p>sandbox@email.com</p>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <img src="img/3.2.png" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
+                      <h3 class="counter">99.7%</h3>
+                      <p class="mb-0">Customer Satisfaction</p>
                     </div>
+                    <!--/column -->
+                  </div>
+                  <!--/.row -->
                 </div>
+                <!-- /column -->
+              </div>
+              <!-- /.row -->
             </div>
-        </section> 
+            <!-- /.container -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+      </div>
+      <!-- /.container-card -->
+      <div class="container">
+        <div class="grid mb-18">
+          <div class="row isotope gy-6 mt-n18">
+            <div class="item col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body">
+                  <blockquote class="border-0 mb-0">
+                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!--/column -->
+            <div class="item col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body">
+                  <blockquote class="border-0 mb-0">
+                    <p>“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet purus sit amet fermentum.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Cory Zamora</h5>
+                        <p class="mb-0">Marketing Specialist</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!--/column -->
+            <div class="item col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body">
+                  <blockquote class="border-0 mb-0">
+                    <p>“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Nikolas Brooten</h5>
+                        <p class="mb-0">Sales Manager</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!--/column -->
+            <div class="item col-md-6 col-xl-3">
+              <div class="card shadow-lg card-border-bottom border-soft-primary">
+                <div class="card-body">
+                  <blockquote class="border-0 mb-0">
+                    <p>“Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”</p>
+                    <div class="blockquote-details">
+                      <div class="info ps-0">
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!--/column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.grid-view -->
+        <div class="row text-center">
+          <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Case Studies</h2>
+            <h3 class="display-4 mb-9 me-lg-n5">Check out some of our awesome projects with creative ideas and great design.</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="swiper-container blog grid-view mb-17 mb-md-20" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="https://sandbox.elemisthemes.com/assets/img/photos/b4.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Read More</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="https://sandbox.elemisthemes.com/blog-post.html">Ligula tristique quis risus</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="https://sandbox.elemisthemes.com/assets/img/photos/b5.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Read More</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="https://sandbox.elemisthemes.com/blog-post.html">Nullam id dolor elit id nibh</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="https://sandbox.elemisthemes.com/assets/img/photos/b6.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Read More</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="https://sandbox.elemisthemes.com/blog-post.html">Ultricies fusce porta elit</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="https://sandbox.elemisthemes.com/assets/img/photos/b7.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Read More</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="https://sandbox.elemisthemes.com/blog-post.html">Morbi leo risus porta eget</a></h2>
+                  </div>
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+            </div>
+            <!--/.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+          <div class="col-lg-6">
+            <div class="row gx-md-5 gy-5">
+              <div class="col-md-6">
+                <figure class="rounded"><img src="https://sandbox.elemisthemes.com/assets/img/photos/g12.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/photos/g12@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 align-self-end">
+                <figure class="rounded"><img src="https://sandbox.elemisthemes.com/assets/img/photos/g13.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/photos/g13@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-12">
+                <figure class="rounded mx-md-5"><img src="https://sandbox.elemisthemes.com/assets/img/photos/g11.jpg" srcset="https://sandbox.elemisthemes.com/assets/img/photos/g11@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Who Are We?</h2>
+            <h3 class="display-4 mb-4">Company that believes in the power of creative strategy.</h3>
+            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed.</p>
+            <div class="row gy-3 gx-xl-8">
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur blandit tempus.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare donec elit.</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna mollis euismod.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fermentum massa vivamus faucibus amet euismod.</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-6 mb-14 mb-md-17">
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> <span class="number fs-18">1</span> </div>
+              </div>
+              <div>
+                <h4>Our Vision</h4>
+                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> <span class="number fs-18">2</span> </div>
+              </div>
+              <div>
+                <h4>Our Mission</h4>
+                <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-circle pe-none btn-soft-primary me-4"> <span class="number fs-18">3</span> </div>
+              </div>
+              <div>
+                <h4>Our Values</h4>
+                <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
+          <div class="col-lg-6">
+            <figure><img class="w-auto" src="https://sandbox.elemisthemes.com/assets/img/illustrations/3d3.png" srcset="https://sandbox.elemisthemes.com/assets/img/illustrations/3d3@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5 offset-lg-1">
+            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Contact Us</h2>
+            <h3 class="display-4 mb-8">Got any questions? Don't hesitate to get in touch.</h3>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/4.png" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+              </div>
+              <div>
+                <h5 class="mb-0">Address</h5>
+                <address>Moonshine St. 14/05 Light City, London</address>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/4.1.png" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+              </div>
+              <div>
+                <h5 class="mb-0">Phone</h5>
+                <p>00 (123) 456 78 90</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="img/4.2.png" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+              </div>
+              <div>
+                <h5 class="mb-0">E-mail</h5>
+                <p class="mb-0"><a href="/cdn-cgi/l/email-protection#8cffede2e8eee3f4cce9e1ede5e0a2efe3e1" class="link-body"><span class="__cf_email__" data-cfemail="e497858a80868b9ca48189858d88ca878b89">[email&#160;protected]</span></a></p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="bg-light">
+    <div class="container-card">
+      <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mb-14" data-image-src="https://sandbox.elemisthemes.com/assets/img/photos/bg22.png">
+        <div class="card-body py-14 px-0">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-xl-11 col-xxl-9 mx-auto">
+                <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Join Our Community</h2>
+                <h3 class="display-4 mb-7 px-lg-17">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+            <div class="d-flex justify-content-center">
+              <span><a class="btn btn-lg btn-gradient gradient-1 rounded">Get Started</a></span>
+            </div>
+          </div>
+          <!--/.container -->
+        </div>
+        <!--/.card-body -->
+      </div>
+      <!--/.card -->
+    </div>
+    <!-- /.container-card -->
+    <div class="container pb-13 pb-md-15"">
+        <div class=" row gy-6 gy-lg-0">
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <img class="mb-4" src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png" srcset="https://sandbox.elemisthemes.com/assets/img/logo-dark@2x.png 2x" alt="" />
+          <p class="mb-4">© <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+              document.write(new Date().getUTCFullYear());
+            </script> Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+          <nav class="nav social ">
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-facebook-f"></i></a>
+            <a href="#"><i class="uil uil-dribbble"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+            <a href="#"><i class="uil uil-youtube"></i></a>
+          </nav>
+          <!-- /.social -->
+        </div>
+        <!-- /.widget -->
+      </div>
+      <!-- /column -->
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title  mb-3">Get in Touch</h4>
+          <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+          <a href="/cdn-cgi/l/email-protection#b596" class="link-body"><span class="__cf_email__" data-cfemail="e78e898188a7828a868e8bc984888a">[email&#160;protected]</span></a><br /> 00 (123) 456 78 90
+        </div>
+        <!-- /.widget -->
+      </div>
+      <!-- /column -->
+      <div class="col-md-4 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title  mb-3">Learn More</h4>
+          <ul class="list-unstyled text-reset mb-0">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <!-- /.widget -->
+      </div>
+      <!-- /column -->
+      <div class="col-md-12 col-lg-3">
+        <div class="widget">
+          <h4 class="widget-title  mb-3">Our Newsletter</h4>
+          <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+          <div class="newsletter-wrapper">
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup2">
+              <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll2">
+                  <div class="mc-field-group input-group form-floating">
+                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                    <label for="mce-EMAIL2">Email Address</label>
+                    <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary btn-gradient gradient-1">
+                  </div>
+                  <div id="mce-responses2" class="clear">
+                    <div class="response" id="mce-error-response2" style="display:none"></div>
+                    <div class="response" id="mce-success-response2" style="display:none"></div>
+                  </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                  <div class="clear"></div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+          <!-- /.newsletter-wrapper -->
+        </div>
+        <!-- /.widget -->
+      </div>
+      <!-- /column -->
+    </div>
+    <!--/.row -->
+    </div>
+  </footer>
+  <button id="scrollToTopBtn" title="Go to top" class="id">
+    <svg id="circle" width="50" height="50" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="23" stroke="#cfceea" stroke-width="2" fill="none" />
+    </svg>
+    <i class="fa-solid fa-arrow-up icon-center"></i>
+  </button>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://sandbox.elemisthemes.com/assets/js/plugins.js"></script>
+  <script src="https://sandbox.elemisthemes.com/assets/js/theme.js"></script>
+  <script src="script.js"></script>
+</body>
 
-        <div style="margin-bottom: 7rem"></div>
-        <section class="community">
-            <h2>Join Our Community</h2>
-            <h1>We are trusted by over 5000+ clients.<br> Join them now and grow your business.</h1>
-            <a class="btn2" href="#">Get Started</a>
-        </section>
-
-        <div style="margin-bottom: 5rem"></div>
-        <section class="footer">
-            <div class="footer-box1">
-                <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark@2x.png" alt="menulogo">
-                <h2 class="text-gray-600">© 2025 Sandbox.<br> All rights reserved.</h2>
-                <div class="icon4">
-                    <a href="#" style="color: #339fff;"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" style="color: blue;"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" style="color: #e94d88;"><i class="fa-brands fa-dribbble"></i></a>
-                    <a href="#" style="color: #d53581;"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" style="color: #c8312b;"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="footer-box2">
-                <h1>Get in Touch</h1>
-                <h2>Moonshine St. 14/05<br> Light City, London, United <br>Kingdom</h2>
-                <div class="info">
-                    <a href="#">info@email.com.</a>
-                    <p>00 (123) 456 78 90</p>
-                </div>
-            </div>
-            <div class="footer-box3">
-                <h1>Learn More</h1>
-                <a href="#">About Us</a>
-                <a href="#">Our Story</a>
-                <a href="#">Projects</a>
-                <a href="#">Terms Of Use</a>
-                <a href="#">Privacy Policy</a>
-            </div>
-            <div class="footer-box4">
-                <h1>Our Newsletter</h1>
-                <h2>Subscribe to our newsletter to get our news & deals delivered to you.</h2>
-                <div class="email-container">
-                    <input type="email" placeholder=" Email Address">
-                    <button>Join</button>
-                </div>
-            </div>
-        </section>
-
-        <button id="scrollToTopBtn" title="Go to top" class="id">
-            <svg id="circle" width="50" height="50" viewBox="0 0 50 50">
-                <circle cx="25" cy="25" r="23" stroke="#cfceea" stroke-width="2" fill="none" />
-            </svg>
-            ↑
-        </button>
-        
-    </body>
 </html>
