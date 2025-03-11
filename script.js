@@ -26,5 +26,5 @@ scrollToTopBtn.onclick = function() {
 
 document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Ngăn form gửi đi mặc định
-    window.location.href = 'https://youtu.be/xMHJGd3wwZk'; // Chuyển hướng tới YouTube
+    window.location.href = '#'; // Chuyển hướng tới YouTube
   });
